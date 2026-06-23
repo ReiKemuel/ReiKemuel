@@ -2,7 +2,7 @@
 
 Junior iOS developer based in the Philippines (UTC+8). Open to remote work.
 
-I ship iOS monetization and platform-integration features on a real App Store product — and I work inside someone else's architecture rather than always greenfielding my own.
+I ship iOS monetization features and platform-API integrations on a real App Store product — and I work inside someone else's architecture rather than always greenfielding my own.
 
 ## Featured
 
@@ -10,22 +10,21 @@ I ship iOS monetization and platform-integration features on a real App Store pr
 
 What I own on Ambio:
 - **Monetization** — Google AdMob (banner, rewarded, app-open + frequency cap) and a two-tier premium-access manager built on a Combine `Publishers.CombineLatest` pipeline
-- **Platform integration** — iOS 17 home-screen widget (Small/Medium/Large), iOS 18 Control Center control, lock-screen NowPlaying + `MPRemoteCommandCenter`
+- **Lock-screen integration** — NowPlaying + `MPRemoteCommandCenter` controls (play, pause, stop) wired on top of the app's audio playback
 - **Premium UX** — rewarded-ad flow, unlock-expiry toast, premium sheet with iPad-aware detents, mood/tag filter chip bar
 - **Firebase setup** — Analytics + Crashlytics init, AdMob adapter-status logging, structured ad-lifecycle event taxonomy
 
 ## Stack
 
-**iOS:** Swift · SwiftUI · Combine · async/await · Swift Package Manager
+**iOS:** Swift · SwiftUI · Combine · async/await · Swift Package Manager · MPNowPlayingInfoCenter · MPRemoteCommandCenter
 **Monetization:** Google AdMob · premium-access state design
-**Platform integration:** WidgetKit · AppIntents · App Groups · MPNowPlayingInfoCenter / MPRemoteCommandCenter
 **Adjacent (consumer-side):** SwiftData · AVFoundation (NowPlaying surface) · StoreKit 2 (state consumption) · Django REST API consumption · Firebase SDK
 **Workflow:** AI-augmented development with Claude Code · Bitbucket PRs · async-async-async
 
 ## Currently
 
 - Growing on Ambio's monetization + platform-integration layers
-- Open to remote iOS junior roles, mentored apprenticeships, or specialized monetization/widget contract work
+- Open to remote iOS junior roles, mentored apprenticeships, or specialized monetization / iOS-platform-API contract work
 - Learning depth on Swift Concurrency design, core AVFoundation, and Django REST through code review
 
 ## Reach me
