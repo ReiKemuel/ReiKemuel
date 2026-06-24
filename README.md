@@ -2,13 +2,13 @@
 
 Junior iOS developer based in the Philippines (UTC+8). Open to remote work.
 
-I ship iOS monetization features and platform-API integrations on a real App Store product — and I work inside someone else's architecture rather than always greenfielding my own.
+I've shipped features on a live App Store product, working inside a senior dev's existing codebase. A lot of the work was studying his patterns, learning fast, and adapting as I went. Most of what I've built so far has been on Ambio — a small distributed team where I contribute to the monetization and lock-screen layers.
 
 ## Featured
 
-**[Ambio](https://apps.apple.com/us/app/ambio-sleep-focus-sounds/id6749637478)** — Ambient sound app for sleep, focus, and relaxation. Live on the App Store since May 2026. Built on a small distributed team (lead engineer in Vietnam + marketing partner in the US).
+**[Ambio](https://apps.apple.com/us/app/ambio-sleep-focus-sounds/id6749637478)** — Ambient sound app for sleep, focus, and relaxation. Live on the App Store since May 2026. Built on a small distributed team (lead engineer + marketing partner in Vietnam ).
 
-What I own on Ambio:
+Built in Ambio:
 - **Monetization** — Google AdMob (banner, rewarded, app-open + frequency cap) and a two-tier premium-access manager built on a Combine `Publishers.CombineLatest` pipeline
 - **Lock-screen integration** — NowPlaying + `MPRemoteCommandCenter` controls (play, pause, stop) wired on top of the app's audio playback
 - **Premium UX** — rewarded-ad flow, unlock-expiry toast, premium sheet with iPad-aware detents, mood/tag filter chip bar
@@ -18,8 +18,6 @@ What I own on Ambio:
 
 **iOS:** Swift · SwiftUI · Combine · async/await · Swift Package Manager · MPNowPlayingInfoCenter · MPRemoteCommandCenter
 **Monetization:** Google AdMob · premium-access state design
-**Adjacent (consumer-side):** SwiftData · AVFoundation (NowPlaying surface) · StoreKit 2 (state consumption) · Django REST API consumption · Firebase SDK
-**Workflow:** AI-augmented development with Claude Code · Bitbucket PRs · async-async-async
 
 ## Currently
 
