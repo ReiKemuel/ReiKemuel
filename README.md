@@ -8,6 +8,12 @@ I've shipped features on a live App Store product, working inside a senior dev's
 
 **[Ambio](https://apps.apple.com/us/app/ambio-sleep-focus-sounds/id6749637478)** — Ambient sound app for sleep, focus, and relaxation. Live on the App Store since May 2026. Built on a small distributed team (lead engineer + marketing partner in Vietnam).
 
+<p>
+  <img src="images/ambio-player.png" width="230" alt="Ambio — sound player">
+  <img src="images/ambio-mixes.png" width="230" alt="Ambio — mix and match sounds">
+  <img src="images/ambio-focus.png" width="230" alt="Ambio — focus timer">
+</p>
+
 Built in Ambio:
 - **Monetization** — Google AdMob (banner, rewarded, app-open + frequency cap) and a two-tier premium-access manager built on a Combine `Publishers.CombineLatest` pipeline
 - **Lock-screen integration** — NowPlaying + `MPRemoteCommandCenter` controls (play, pause, stop) wired on top of the app's audio playback
