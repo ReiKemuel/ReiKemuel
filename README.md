@@ -38,17 +38,22 @@ My layers of the app:
 | **[TwoTierPremiumAccess](https://github.com/ReiKemuel/TwoTierPremiumAccess)** | The Combine pipeline that derives a single `hasPremiumAccess` flag from a rewarded-ad temporary unlock and a subscription source. Honest notes on the rough edges. Foundation + Combine only. |
 | **[Morning Manna](https://github.com/ReiKemuel/morning-manna)** | The one that isn't iOS: an AI newsletter engine built with Claude Code. Turns my own church-service notes into a daily devotional email — current subscriber count: me. The engine is public; the personal content never touches git. |
 
+## In progress
+
+**Gauge: Body Recomposition** — a weight-loss coach that treats your body as a noisy signal. You log a weight and one tap for how well you followed the plan, and it smooths the numbers and tells you once a week whether the plan is working. If the data is too thin, it says so and changes nothing. Built in SwiftUI + SwiftData, and it's the first app that's fully mine. The build is uploaded and it's heading into App Store review, so a lot of what I'm learning now is the part after the code: getting people to actually find an app. Ambio taught me that lesson first.
+
 ## Stack
 
 | | |
 |---|---|
 | **iOS** | Swift · SwiftUI · Combine · async/await · Swift Package Manager · MPNowPlayingInfoCenter · MPRemoteCommandCenter |
 | **Monetization** | Google AdMob · premium-access state design |
-| **Automation** | Claude Code · MCP servers (Notion, Gmail, Firecrawl) · Python tooling |
+| **Automation** | Claude Code (custom skills, sub-agents, hooks) · MCP servers (Notion, Gmail, Google Calendar, Firecrawl) · Trigger.dev scheduled tasks · Resend email API · Python and TypeScript scripts |
+| **Product** | App Store listing and ASO · pricing and positioning · marketing and distribution (learning this one on purpose) |
 
 ## Currently
 
-- Growing on Ambio's monetization + platform-integration layers
+- Getting Gauge ready to launch, and working on Ambio's distribution now that the features are mostly there
 - Working through the AI Automation Society challenge — each lesson ends as a reusable Claude Code skill on my machine, and I'm documenting the learning on LinkedIn
 - Open to remote iOS junior roles, mentored apprenticeships, or specialized monetization / iOS-platform-API contract work
 - Learning depth on Swift Concurrency design, core AVFoundation, and Django REST through code review
